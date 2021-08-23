@@ -1,0 +1,679 @@
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111;
+  background: #fff;
+  padding-top: 50px;
+}
+
+.container {
+  width: 400px;
+  padding: 10px;
+  margin: auto;
+
+  text-align: center;
+  border-radius: 10px;
+}
+
+.name {
+  font-family: 'Montserrat-Bold';
+  font-size: 40px;
+}
+
+.description {
+  font-family: 'Montserrat-Regular';
+  font-size: 18px;
+}
+
+img.pfp {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  padding: 5px;  
+  background: -webkit-linear-gradient(left top, crimson 0%, #096fff 100%);
+}
+
+.share-btn {
+  font-family: 'Montserrat-Medium';
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.link-copied {
+  display: none;
+}
+
+.link-copied-style {
+  background: -webkit-linear-gradient(left top, crimson 0%, #096fff 100%);
+  border-radius: 10px;
+
+  color: #fff;
+  font-family: 'Montserrat-Bold';
+  font-size: 18px;
+
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+/*Buttons*/
+.buttons {
+  float: center;
+  margin: auto;
+  width: 300px;
+}
+
+.buttons a {
+  text-decoration: none;
+}
+
+.button {
+  background: #111;
+
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Montserrat-Bold';
+  font-size: 18px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  border-radius: 7px;
+}
+
+/*Company Buttons*/
+.Twitter {
+  background: #1da1f2;
+}
+
+.Twitter:hover {
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 5px solid #1da1f2;
+  border-radius: 0px;
+
+  color: #111;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.Instagram {
+  background: rgb(233,0,34);
+  background: linear-gradient(51deg, rgba(233,0,34,1) 0%, rgba(164,0,183,1) 50%, rgba(59,0,195,1) 100%);
+}
+
+.Instagram:hover {
+  background: #fff;
+  color: #111;
+
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border-style: solid;
+  border-width: 5px;
+  border-image: linear-gradient(51deg, rgba(233,0,34,1), rgba(59,0,195,1) ) 1;
+}
+
+
+
+
+
+
+
+
+
+.GitHub {
+  background: #111;
+}
+
+.GitHub:hover {
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 5px solid #111;
+  border-radius: 0px;
+
+  color: #111;
+  background: #fff;
+}
+
+
+
+
+
+
+
+.TikTok {
+  background: -webkit-linear-gradient(left top, #25f5ef 0%, #fe2c55 100%);
+}
+
+.TikTok:hover {
+  background: #fff;
+  color: #111;
+
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border-style: solid;
+  border-width: 5px;
+  border-image: linear-gradient(45deg, #25f5ef, #fe2c55) 1;
+}
+
+
+
+
+
+
+
+
+
+.Pinterest {
+  background: #ffe2eb;
+  color: #111;
+}
+
+.Pinterest:hover {
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 5px solid #ffe2eb;
+  border-radius: 0px;
+
+  color: #111;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.Spotify {
+  background: #1dd05d;
+  color: #fff;
+}
+
+.Spotify:hover {
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 5px solid #1dd05d;
+  border-radius: 0px;
+
+  color: #111;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.Email {
+  background: #111;
+  color: #fff;
+}
+
+.Email:hover {
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 5px solid #111;
+  border-radius: 0px;
+
+  color: #111;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.Website {
+  background: #111;
+  color: #fff;
+}
+
+.Website:hover {
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 5px solid #111;
+  border-radius: 0px;
+
+  color: #111;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.Snapchat {
+  background: #f7f403;
+  color: #111;
+}
+
+.Snapchat:hover {
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 5px solid #f7f403;
+  border-radius: 0px;
+
+  color: #111;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.Linkedin {
+  background: #0270ad;
+  color: #fff;
+}
+
+.Linkedin:hover {
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 5px solid #0270ad;
+  border-radius: 0px;
+
+  color: #111;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.Facebook {
+  background: #4267B2;
+  color: #fff;
+}
+
+.Facebook:hover {
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 5px solid #4267B2;
+  border-radius: 0px;
+
+  color: #111;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.Messenger {
+  background: -webkit-linear-gradient(left top, #117af7 0%, #f7616e 100%);
+  color: #fff;
+}
+
+.Messenger:hover {
+  background: #fff;
+  color: #111;
+
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border-style: solid;
+  border-width: 5px;
+  border-image: linear-gradient(45deg, #117af7, #f7616e) 1;
+}
+
+
+
+
+
+
+
+
+
+.Discord {
+  background: #7289d9;
+  color: #fff;
+}
+
+.Discord:hover {
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 5px solid #7289d9;
+  border-radius: 0px;
+
+  color: #111;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.Figma {
+  background: #9d56f7;
+  color: #fff;
+}
+
+.Figma:hover {
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 5px solid #9d56f7;
+  border-radius: 0px;
+
+  color: #111;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.YouTube {
+  background: #FF0000;
+  color: #fff;
+}
+
+.YouTube:hover {
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 5px solid #FF0000;
+  border-radius: 0px;
+
+  color: #111;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.Medium {
+  background: #111;
+  color: #fff;
+}
+
+.Medium:hover {
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 5px solid #111;
+  border-radius: 0px;
+
+  color: #111;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.Twitch {
+  background: #6441a5;
+  color: #fff;
+}
+
+.Twitch:hover {
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 5px solid #6441a5;
+  border-radius: 0px;
+
+  color: #111;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.Reddit {
+  background: #f75400;
+  color: #fff;
+}
+
+.Reddit:hover {
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 5px solid #f75400;
+  border-radius: 0px;
+
+  color: #111;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.Telegram {
+  background: #0088cc;
+  color: #fff;
+}
+
+.Telegram:hover {
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 5px solid #0088cc;
+  border-radius: 0px;
+
+  color: #111;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.Tumblr {
+  background: #34526f;
+  color: #fff;
+}
+
+.Tumblr:hover {
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 5px solid #34526f;
+  border-radius: 0px;
+
+  color: #111;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.Soundcloud {
+  background: #f75219;
+  color: #fff;
+}
+
+.Soundcloud:hover {
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 5px solid #f75219;
+  border-radius: 0px;
+
+  color: #111;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+.Vimeo {
+  background: #1ab1e3;
+  color: #fff;
+}
+
+.Vimeo:hover {
+  transition-duration: 0.3s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 5px solid #1ab1e3;
+  border-radius: 0px;
+
+  color: #111;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+/*Responsive*/
+@media screean and (max-width: 500px){
+  html, body {
+    padding-top: 0px;
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
